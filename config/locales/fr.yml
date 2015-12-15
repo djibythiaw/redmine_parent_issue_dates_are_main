@@ -1,11 +1,11 @@
 # English strings go here for Rails i18n
-en:
+fr:
   activerecord:
     errors:
       models:
         issue:
           attributes:
             start_date:
-              exceed: "plus tôt que le début de la tâche parente"
+              exceed: "plus tôt que le début de la tâche parente de %{nb_jours} jour(s)"
             due_date:
-              exceed: "plus tard que l'échéance de la tâche parente"
+              exceed: "plus tard que l'échéance de la tâche parente de %{nb_jours} jour(s)"

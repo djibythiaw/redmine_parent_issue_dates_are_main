@@ -6,6 +6,6 @@ en:
         issue:
           attributes:
             start_date:
-              exceed: "earlier parent issue"
+              exceed: "earlier parent issue with %{nb_jours} day(s)"
             due_date:
-              exceed: "more than due date of parent issue"
+              exceed: "more than due date of parent issue with %{nb_jours} day(s)"
